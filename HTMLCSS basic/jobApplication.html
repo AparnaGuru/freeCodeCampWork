@@ -20,8 +20,8 @@
   </select> 
   </label>
 </fieldset>
-  <fieldset>Have you worked with us before??<label><input type="radio" name="workedBefore" value="workedyes">Yes</input></label>
-  <label><input type="radio" name="workedBefore" value="workedno">No</input></label></fieldset>
+  <fieldset>Have you worked with us before??<label><input type="radio" name="workedBefore" value="workedyes" class="radiocs"/> Yes</label>
+  <label><input type="radio" name="workedBefore" value="workedno" class="radiocs"/> No</label></fieldset>
   <fieldset>
       <label>Areas of interest
 <select id="survey-form" multiple>
@@ -31,12 +31,13 @@
   <option value="3">Scrum master </option>
   <option value="4">Tech lead </option>
   </select> 
-  </label>
-<label>Skills<input type="checkbox" name="skill" value="c++" >C++</input></label>
-  <label><input type="checkbox" name="skill" value="Python" >Python</input></label>
-  <label><input type="checkbox" name="skill" value="JAVA" >Java</input></label>
-  <label><input type="checkbox" name="skill" value="React" >React</input></label>
-  <label><input type="checkbox" name="skill" value="HTML/CSS" >HTML/CSS</input></label>
+  </label></fieldset>
+<fieldset>Skills:
+ <label> <input type="checkbox" name="skill" value="c++" class="radiocs"/> C++</label>
+  <label><input type="checkbox" name="skill" value="Python" class="radiocs"/> Python</label>
+  <label><input type="checkbox" name="skill" value="JAVA" class="radiocs"/> Java</label>
+  <label><input type="checkbox" name="skill" value="React" class="radiocs" /> React</label>
+  <label><input type="checkbox" name="skill" value="HTML/CSS" class="radiocs" /> HTML/CSS</label></label></fieldset>
   <label>Cover Letter<textarea placeholder="What made you apply for the job?????"></textarea></label>
   <input id="submit" type="Submit" name="Submit"/>
 
